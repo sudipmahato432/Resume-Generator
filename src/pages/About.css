@@ -1,0 +1,110 @@
+.about h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.about p {
+  font-size: 1.15em;
+  padding-block: 1rem;
+  font-weight: 300;
+}
+
+.open-source {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-block: 2rem;
+}
+
+.open-source h3 {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.open-source h3 .svg {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: var(--color-primary);
+  -webkit-mask: url(../assets/github.svg) no-repeat center;
+  mask: url(../assets/github.svg) no-repeat center;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+  padding-block: 2rem;
+}
+
+.features h3 {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.features h3 .svg {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: var(--color-primary);
+  -webkit-mask: url(../assets/checkmark.svg) no-repeat center;
+  mask: url(../assets/checkmark.svg) no-repeat center;
+}
+
+.features li {
+  list-style-type: decimal-leading-zero;
+  font-size: 1.15em;
+}
+
+.open-source a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.open-source a:hover {
+  text-decoration: underline;
+}
+
+.about .credits {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-block: 2rem;
+}
+
+.about .credits h3 {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.about .credits h3 .svg {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: var(--color-primary);
+  -webkit-mask: url(../assets/heart.svg) no-repeat center;
+  mask: url(../assets/heart.svg) no-repeat center;
+}
+
+.about .credits p {
+  font-size: 1.15em;
+  padding-block: 1rem;
+  font-weight: 300;
+}
+
+.about .credits a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.about .credits a:hover {
+  text-decoration: underline;
+}
